@@ -9,7 +9,7 @@ Is usefull for pixel perfect apps that we build.
 
 ```tsx
 import {
-  ResponsiveContext,
+  ResponsiveProvider,
   useResponsive,
 } from "react-native-newestapps-hooks";
 
@@ -26,9 +26,9 @@ const HomeScreen: React.FC = () => {
 
 const App: React.FC = () => {
   return (
-    <ResponsiveContext>
+    <ResponsiveProvider>
       <HomeScreen />
-    </ResponsiveContext>
+    </ResponsiveProvider>
   );
 };
 

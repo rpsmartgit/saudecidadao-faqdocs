@@ -9,7 +9,7 @@ Preference hooks uses async storage, for fast component-level prefs change. Buil
 ```tsx
 import { Text, Button } from "react-native";
 import {
-  PreferenecContext,
+  PreferenceProvider,
   usePreference,
   usePreferences,
   useJsonPreference,
@@ -60,9 +60,9 @@ const ProfileScreen: React.FC = () => {
 
 const App: React.FC = () => {
   return (
-    <PreferenceContext>
+    <PreferenceProvider>
       <ProfileScreen />
-    </PreferenceContext>
+    </PreferenceProvider>
   );
 };
 
