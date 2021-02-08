@@ -1,6 +1,13 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    Welcome: ["welcome"],
+    Hooks: [
+      "hooks/hooks-install",
+      "hooks/use-responsive",
+      "hooks/use-preferences",
+      "hooks/responsive-hooks",
+      "hooks/preference-hooks",
+    ],
+    Push: ["push/push-install", "push/use-device", "push/receiving-messages"],
   },
 };
