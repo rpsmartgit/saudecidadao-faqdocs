@@ -12,5 +12,7 @@ module.exports = {
       "hooks/network-hooks",
     ],
     Push: ["push/push-install", "push/use-device", "push/receiving-messages"],
+    Helpers: ["nw-helpers/install"],
+    Api: ["nw-api/install"],
   },
 };

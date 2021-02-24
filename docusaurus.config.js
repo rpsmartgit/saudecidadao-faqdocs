@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       // title: "Newestapps + React Native",
       logo: {
-        alt: "My Site Logo",
+        alt: "Newestapps Brasil",
         src: "img/logo.svg",
       },
       links: [
@@ -28,18 +28,18 @@ module.exports = {
         // },
       ],
     },
-    algolia: {
-      apiKey: "b8ae241a9d07ed32949880fa643fceb7",
-      indexName: "reactNativeDOCS",
+    // algolia: {
+    //   apiKey: "b8ae241a9d07ed32949880fa643fceb7",
+    //   indexName: "reactNativeDOCS",
 
-      // Optional: see doc section bellow
-      contextualSearch: true,
+    //   // Optional: see doc section bellow
+    //   contextualSearch: true,
 
-      // Optional: Algolia search parameters
-      searchParameters: {},
+    //   // Optional: Algolia search parameters
+    //   searchParameters: {},
 
-      //... other Algolia params
-    },
+    //   //... other Algolia params
+    // },
     footer: {
       style: "dark",
       // links: [
