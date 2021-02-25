@@ -28,3 +28,13 @@ ColorHelper.contrastColor("#333333"); // #FFFFFF
 
 ColorHelper.contrastColor("#e1e1e1"); // #000000
 ```
+
+### randomColor
+
+Generates a random hex color
+
+example:
+
+```jsx
+ColorHelper.randomColor(); // #d22424
+```
