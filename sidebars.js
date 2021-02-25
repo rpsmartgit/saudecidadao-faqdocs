@@ -12,7 +12,13 @@ module.exports = {
       "hooks/network-hooks",
     ],
     Push: ["push/push-install", "push/use-device", "push/receiving-messages"],
-    Helpers: ["nw-helpers/install"],
+    Helpers: [
+      "nw-helpers/install",
+      "nw-helpers/moment-timezone",
+      "nw-helpers/form-serializer",
+      "nw-helpers/string-mask",
+      "nw-helpers/color-helper",
+    ],
     Api: ["nw-api/install"],
   },
 };
