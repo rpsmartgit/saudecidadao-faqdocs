@@ -1,7 +1,8 @@
 module.exports = {
-  someSidebar: {
-    Welcome: ["welcome"],
-    Hooks: [
+  welcomeSidebar: {
+    "Getting Started": ["welcome"],
+    
+    "React Native Hooks": [
       "hooks/hooks-install",
       "hooks/use-responsive",
       "hooks/use-preferences",
@@ -11,14 +12,18 @@ module.exports = {
       "hooks/preference-hooks",
       "hooks/network-hooks",
     ],
-    Push: ["push/push-install", "push/use-device", "push/receiving-messages"],
-    Helpers: [
+    "React Native Push": ["push/push-install", "push/use-device", "push/receiving-messages"],
+
+    "Common Helpers": [
       "nw-helpers/install",
       "nw-helpers/moment-timezone",
       "nw-helpers/form-serializer",
       "nw-helpers/string-mask",
       "nw-helpers/color-helper",
     ],
-    Api: ["nw-api/install"],
-  },
+    
+    "Orion Api": ["nw-api/install"],
+ 
+    "FluentUI Extensions": ["fluentui-extensions/install"],
+  }
 };

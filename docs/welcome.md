@@ -19,3 +19,11 @@ Node, React, Browser, etc...
 | ---------------------------------------------------------- | -------------------------------------------------- |
 | [newestapps-helpers](/docs/nw-helpers/install) | General helper classes |
 | [newestapps-api](/docs/nw-api/install) | Laravel Orion, front end controller builder and full typed api base. |
+
+### Extensions
+
+Ui, Libs, Softwares, etc.
+
+| Lib                                                        | Description                                        |
+| ---------------------------------------------------------- | -------------------------------------------------- |
+| [newestapps-fluentui-extensions](/docs/fluentui-extensions/install) | FluentUI React extensions for react-hook-form (Web only) |

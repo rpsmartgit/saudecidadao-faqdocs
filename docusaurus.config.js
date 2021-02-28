@@ -7,6 +7,11 @@ module.exports = {
   organizationName: "rodrigotbrun", // Usually your GitHub org/user name.
   projectName: "newestapps-react-native-lib-docs", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       // title: "Newestapps + React Native",
       logo: {
