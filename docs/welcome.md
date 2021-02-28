@@ -27,3 +27,11 @@ Ui, Libs, Softwares, etc.
 | Lib                                                        | Description                                        |
 | ---------------------------------------------------------- | -------------------------------------------------- |
 | [newestapps-fluentui-extensions](/docs/fluentui-extensions/install) | FluentUI React extensions for react-hook-form (Web only) |
+
+### UI and Design
+
+Branding, UI, Components, Design, etc..
+
+| Lib                                                        | Description                                        |
+| ---------------------------------------------------------- | -------------------------------------------------- |
+| <div style={{width: 170,}}>[newestapps-branding](/docs/branding/install)</div> | All Newestapps brands optimized and in a component way, ready for React Web and React Native |

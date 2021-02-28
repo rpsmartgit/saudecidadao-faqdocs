@@ -2,6 +2,8 @@ module.exports = {
   welcomeSidebar: {
     "Getting Started": ["welcome"],
     
+    "Branding": ["branding/install", "branding/newestapps", "branding/acheicorridas"],
+    
     "React Native Hooks": [
       "hooks/hooks-install",
       "hooks/use-responsive",

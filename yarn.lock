@@ -5793,6 +5793,11 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.1.tgz"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
+newestapps-branding@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/newestapps-branding/-/newestapps-branding-1.0.0.tgz#1c3b18a6fac8c5474856cc497b0eccbcd070298b"
+  integrity sha512-Bc810n524H97n1KC6VkIjAbVxEur8IrBsmXnjHDlCXiAMKC/G9ys1TqJMCflbb7eyqzcdKhA1/mriPHEr2rbXg==
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz"
