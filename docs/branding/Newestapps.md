@@ -4,6 +4,9 @@ title: Newestapps
 sidebar_label: Newestapps
 ---
 import { Newestapps } from 'newestapps-branding';
+import { PrimaryButton } from '@fluentui/react';
+
+<PrimaryButton onClick={() => {window.location.href="https://603c1e2317cd3600239d50f8-rupnstblpt.chromatic.com"}}>Go to Storybook</PrimaryButton>
 
 ### Options
 

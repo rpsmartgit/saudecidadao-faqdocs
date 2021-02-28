@@ -3,6 +3,11 @@ id: install
 title: Installation
 sidebar_label: Installation
 ---
+import { PrimaryButton } from '@fluentui/react';
+
+<PrimaryButton onClick={() => {window.location.href="https://603c206917cd3600239d51e5-helhtiqjla.chromatic.com/?path=/story/components-button--default"}}>Go to Storybook</PrimaryButton>
+
+----
 
 Install peer dependencies if needed
 
