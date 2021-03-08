@@ -7,13 +7,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #da3d47;
-  --ifm-color-primary-dark: #d0313c;
-  --ifm-color-primary-darker: #c62832;
-  --ifm-color-primary-darkest: #b1242d;
-  --ifm-color-primary-light: #e8656e;
-  --ifm-color-primary-lighter: #f17c83;
-  --ifm-color-primary-lightest: #f48d93;
+  --ifm-color-primary: #0085ff;
+  --ifm-color-primary-dark: #0085ff;
+  --ifm-color-primary-darker: #0085ff;
+  --ifm-color-primary-darkest: #0085ff;
+  --ifm-color-primary-light: #0085ff;
+  --ifm-color-primary-lighter: #0085ff;
+  --ifm-color-primary-lightest: #0085ff;
   --ifm-code-font-size: 95%;
 }
 
@@ -66,4 +66,8 @@ html[data-theme="dark"] .DocSearch {
     var(--ifm-color-emphasis-200) 0%,
     var(--ifm-color-emphasis-100) 100%
   );
+}
+
+.navbar {
+  display: none !important;
 }
