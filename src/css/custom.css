@@ -71,3 +71,19 @@ html[data-theme="dark"] .DocSearch {
 .navbar {
   display: none !important;
 }
+
+.main-wrapper {
+  padding-top: 30px !important;
+}
+
+html[data-theme="dark"] body,
+html[data-theme="dark"] #__docusaurus,
+html[data-theme="dark"] .container {
+  background-color: #2a3036 !important;
+}
+
+header > h1 {
+  font-size: 20px !important;
+  text-align: right;
+  padding-bottom: 15px;
+}

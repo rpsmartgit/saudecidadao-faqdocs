@@ -8,10 +8,19 @@ module.exports = {
   projectName: "newestapps-react-native-lib-docs", // Usually your repo name.
   themeConfig: {
     colorMode: {
-      defaultMode: "light",
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
+      defaultMode: "dark",
+      respectPrefersColorScheme: LocalizedFontFamilies,
     },
+
+    announcementBar: {
+      id: "support_us", // Any value that will identify this message.
+      content:
+        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      backgroundColor: "#fafbfc", // Defaults to `#fff`.
+      textColor: "#091E42", // Defaults to `#000`.
+      isCloseable: false, // Defaults to `true`.
+    },
+
     // navbar: {
     //   // title: "Newestapps + React Native",
     //   logo: {
@@ -92,7 +101,7 @@ module.exports = {
     //   //     ],
     //   //   },
     //   // ],
-    //   copyright: `Copyright © ${new Date().getFullYear()} Newestapps Desenvolvimentos de Software LTDA`,
+    //   // copyright: `Sáude Cidadão - ${new Date().getFullYear()}`,
     // },
   },
   presets: [
