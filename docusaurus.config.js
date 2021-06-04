@@ -9,7 +9,7 @@ module.exports = {
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
-      respectPrefersColorScheme: LocalizedFontFamilies,
+      // respectPrefersColorScheme: LocalizedFontFamilies,
     },
 
     announcementBar: {
